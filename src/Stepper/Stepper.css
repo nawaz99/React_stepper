@@ -1,0 +1,42 @@
+.steps {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 4rem;
+	font-size: 1rem;
+}
+
+.step {
+	display: flex;
+	font-weight: 400;
+	align-items: center;
+	color: grey;
+}
+
+.step.active{
+	color:black;
+}
+
+.step .num {
+	width: 30px;
+	height: 30px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	/* padding:1.5rem; */
+}
+
+
+.step.active .num {
+	background: rgba(39, 243, 117, 0.753);
+	color: white;
+}
+
+
+.line {
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	margin: 0 0.1rem;
+}
